@@ -1,4 +1,5 @@
-Project Name: Portfolio Website
+Portfolio Website
+
 Table of Contents
 Project Overview
 
@@ -146,6 +147,7 @@ Push to your forked repository
 Open a pull request to merge your changes
 
 Group Members who contributed to this project
+
 Naomi Wairimu -Developer and Designer
 
 Sharon Nduku - CSS designer and general styling
