@@ -107,8 +107,11 @@ Open the index.html file in your preferred web browser.
 Alternatively, you can serve the project using a local development server like Live Server in Visual Studio Code.
 
 You can view the site on Netlify site https://tubular-pony-eec1ac.netlify.app/
+
 Usage
-This portfolio website can be used by anyone looking to display their personal projects, skills, and experience. It is designed for freelancers, job seekers, and anyone in need of a personal portfolio. You can modify the content in the HTML files to match your personal information.
+This portfolio website can be used by anyone looking to display their personal projects, skills, and experience. It is designed for freelancers, job seekers, and anyone in 
+
+need of a personal portfolio. You can modify the content in the HTML files to match your personal information.
 
 Customizing Your Portfolio
 Update the about-section with your bio and social links.
