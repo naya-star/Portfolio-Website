@@ -1,0 +1,582 @@
+/* CSS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1a2b3c;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 0.75rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #a0f0d0;
+}
+
+.navbar-nav .btn-success {
+    background-color: #008080;
+    border-color: #008080;
+    border-radius: 20px;
+}
+
+.navbar-nav .btn-success:hover {
+    background-color: #006060;
+    border-color: #006060;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background-color: #008080;
+    color: white;
+    padding: 5rem 0;
+    position: relative; /* For positioning the right sidebar */
+    overflow: hidden; /* To contain potential overflows */
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-section h2 {
+    font-size: 2.25rem;
+    color: #a0f0d0;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+.hero-section .btn-success {
+    background-color: #008080;
+    border-color: #008080;
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.hero-section .btn-success:hover {
+    background-color: #006060;
+    border-color: #006060;
+}
+
+.hero-section .btn-outline-light {
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.hero-section .btn-outline-light:hover {
+    background-color: white;
+    color: #008080;
+    border-color: white;
+}
+
+.hero-section .img-fluid {
+    border-radius: 10px; /* Add a slight curve to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 80%; /* Make the image responsive */
+}
+
+/* Right sidebar */
+.right-sidebar {
+    position: absolute;
+    top: 15%; /* Position the top edge in the vertical center */
+    right: 10px; /* Adjust distance from the right */
+    transform: translateY(-50%); /* Move the element up by half its height to truly center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(30, 58, 58, 0.8); /* Semi-transparent dark teal */
+    border-radius: 5px;
+    z-index: 10; /* Ensure it's above other content */
+    width: 80px; /* Fixed width for the sidebar */
+  }
+  
+  .right-sidebar a {
+    color: white;
+    font-size: 1em; /* Adjust icon and text size */
+    margin-bottom: 15px; /* Add more spacing between items */
+    display: flex; /* Align icon and text */
+    flex-direction: column; /* Stack icon and text if needed, or row for side-by-side */
+    align-items: center; /* Center icon and text horizontally */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  .right-sidebar a i {
+    font-size: 1.2em; /* Adjust icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+  }
+  
+  .right-sidebar a:last-child {
+    margin-bottom: 0; /* Remove margin from the last item */
+  }
+/* About Section Styles */
+.about-section {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-content h3 {
+    font-size: 1.75rem;
+    color: #008080;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.about-content .social-links {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-content .social-links p {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.about-content .social-icon {
+    color: #008080;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.about-content .social-icon:hover {
+    color: #006060;
+}
+
+.about-content .btn-success {
+    background-color: #008080;
+    border-color: #008080;
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.about-content .btn-success:hover {
+    background-color: #006060;
+    border-color: #006060;
+}
+
+.about-content .download-cv-btn {
+    background-color: #008080;
+    border-color: #008080;
+}
+
+.about-content .download-cv-btn:hover {
+    background-color: #006060;
+    border-color: #006060;
+}
+
+/* Services Section Styles */
+.services-section {
+    padding: 5rem 0;
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #008080;
+}
+
+.service-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-card i {
+    font-size: 2rem;
+    color: #008080;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.more-services-link {
+    display: inline-block;
+    color: #008080;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    margin-top: 1rem;
+}
+/* Hide the extra services section by default */
+#more-services {
+    display: none;
+  }
+  
+  /* Show it when it's targeted by the anchor link */
+  #more-services:target {
+    display: block;
+  }
+.more-services-link:hover {
+    color: #006060;
+}
+
+.more-services-link i {
+    margin-left: 0.5rem;
+}
+
+/* Skills Section Styles */
+.skills-section {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #008080;
+}
+
+.skills-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+.skill-bar {
+    margin-bottom: 1.5rem;
+}
+
+.skill-bar p {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.progress {
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #008080;
+    height: 100%;
+}
+
+.additional-skills {
+    margin-top: 4rem;
+}
+
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.skill-item i {
+    font-size: 2rem;
+    color: #008080;
+    margin-right: 1.5rem;
+}
+
+.skill-item h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.skill-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Success Work Section Styles */
+.success-work-section {
+    padding: 5rem 0;
+}
+
+.success-work-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #008080;
+    text-align: center;
+}
+
+.work-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.work-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Client Logo Section */
+.client-logo-section {
+    background-color: #008080;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.client-logo {
+    max-width: 80%;
+    height: 100px;
+    transition: opacity 0.3s ease;
+    margin: 1rem;
+}
+
+/* Footer Section Styles */
+.footer-section {
+    background-color: #1a2b3c;
+    color: white;
+    padding: 5rem 0;
+}
+
+.footer-section .container {
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.footer-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow badges to wrap */
+}
+
+.logo-badges img {
+    max-height: 50px; /* Adjust badge height */
+    margin: 1rem;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Wrap content on smaller screens */
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    min-width: 300px; /* Minimum width for each section */
+}
+
+.footer-left .navbar-brand {
+    color: white;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.contact-details i {
+    margin-right: 0.5rem;
+    width: 20px; /* Ensure icons have consistent width */
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right; /* Align text to the right */
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.footer-section {
+    position: relative; /* Make the footer a positioning context */
+  }
+  
+  .footer-right p {
+    margin-bottom: 1rem;
+    bottom: 1rem;
+    left: 2rem;
+    text-align: left;
+    position: absolute; /* Take them out of the normal flow */
+  }
+  
+  .footer-right .social-links {
+    display: flex;
+    justify-content: flex-end; /* Keep icons aligned to the right within their container */
+    position: absolute; /* Take them out of the normal flow */
+    bottom: 5rem; /* Adjust this value to control vertical position */
+    right: 5rem; /* Adjust this value to control horizontal position */
+  }
+  
+  .footer-right .social-icon {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+  }
+  /* === Responsive Styles === */
+
+/* Small devices (phones, up to 576px) */
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section .btn-success,
+    .hero-section .btn-outline-light {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .about-content h2,
+    .services-section h2,
+    .skills-section h2,
+    .success-work-section h2 {
+        font-size: 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .right-sidebar {
+        display: none; /* Hide it on small screens */
+    }
+
+    .footer-main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-right {
+        text-align: center;
+        position: static;
+        margin-top: 2rem;
+    }
+
+    .footer-right .social-links {
+        justify-content: center;
+        position: static;
+        margin-top: 1rem;
+    }
+}
+
+/* Medium devices (tablets, 577px to 768px) */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 1rem;
+    }
+
+    .hero-section .img-fluid {
+        width: 100%;
+    }
+
+    .service-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left,
+    .footer-right {
+        text-align: center;
+    }
+
+    .right-sidebar {
+        right: 5px;
+    }
+}
+
+/* Large devices (desktops, 769px to 1200px) */
+@media (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-content h2,
+    .services-section h2,
+    .skills-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .skill-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skill-item i {
+        margin-bottom: 0.5rem;
+    }
+}
