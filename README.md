@@ -1,147 +1,135 @@
-Portfolio Website
-📚 Table of Contents
-Project Overview
+# Portfolio Website
 
-Technologies Used
+## Table of Contents
 
-Features
+- [Project Overview](#project-overview)  
+- [Technologies Used](#technologies-used)  
+- [Features](#features)  
+- [Solution Approach](#solution-approach)  
+- [Installation Instructions](#installation-instructions)  
+- [Usage](#usage)  
+- [Responsive Design](#responsive-design)  
+- [Contributing](#contributing)  
+- [Group Members](#group-members)  
+- [License](#license)  
 
-Solution Approach
+---
 
-Installation Instructions
+## Project Overview
+
+This is a personal portfolio website created with **HTML**, **CSS**, and **JavaScript**. It showcases skills, experience, and work in a clean, modern layout with sections like:
+
+- **About Me**
+- **Services**
+- **Skills**
+- **Success Stories**
+- **Client Logos**
+
+### Key Sections
+
+- **Navbar**: Branding, nav links, and a CTA button  
+- **Hero Section**: Eye-catching welcome message and background image  
+- **About Section**: Includes bio, social links, and CV download  
+- **Services Section**: List of services with interactive expansion  
+- **Skills Section**: Skill bars and icons  
+- **Success Work**: Project image gallery with hover effects  
+- **Footer**: Contact details, social links, and client logos  
+
+---
+
+## Technologies Used
+
+- **HTML5**: Website structure  
+- **CSS3**: Styling and responsive design  
+- **JavaScript**: Smooth scrolling and interactivity  
+- **FontAwesome**: Icons  
+
+---
+
+## Features
+
+- 🎯 **Smooth Scrolling**  
+- 📱 **Responsive Design for all devices**  
+- ✨ **Hover Effects**  
+- 🔗 **Social Media Integration**  
+- 🧩 **Dynamic Service Expansion**  
+- 👥 **Client Logo Carousel**
+
+---
+
+## Solution Approach
+
+### 1. Planning the Structure
+Defined core sections like About, Services, Skills, etc., aiming for a balance of clarity and engagement.
+
+### 2. Choosing Technologies
+- **HTML5** for semantic structure  
+- **CSS3** with animations and transitions  
+- **JavaScript** for interactivity  
+- **FontAwesome** for icons  
+
+### 3. Mobile-First Design
+- Prioritized mobile experience  
+- Used media queries for responsive behavior  
+
+### 4. Interactive Features
+- Toggle to show more services  
+- Hover animations for interactivity  
+
+### 5. Challenges Addressed
+- Hover functionality on mobile (limited support)  
+- Balancing minimalism with informative content  
+
+---
+
+## Installation Instructions
+
+To run this project locally:
+
+```bash
+git clone https://github.com/naya-star/Portfolio-Website.git
+cd Portfolio-Website
+
+Open the index.html file in your preferred web browser.
+
+Alternatively, you can serve the project using a local development server like Live Server in Visual Studio Code.
 
 Usage
+This portfolio website can be used by anyone looking to display their personal projects, skills, and experience. It is designed for freelancers, job seekers, and anyone in need of a personal portfolio. You can modify the content in the HTML files to match your personal information.
+
+Customizing Your Portfolio
+Update the about-section with your bio and social links.
+
+Modify the services-section to include your offered services.
+
+Add your own skills in the skills-section and adjust the skill levels.
+
+Include images of your work in the success-work-section.
+
+Change the footer content to display your contact information.
 
 Responsive Design
+The website is fully responsive. Below is a breakdown of how it adapts to different screen sizes:
+
+Small Devices (Phones, up to 576px): The navbar becomes a mobile-friendly version, the hero section text size adjusts, and the right sidebar is hidden.
+
+Medium Devices (Tablets, 577px to 768px): The layout adjusts for tablet screens with changes in padding and element spacing.
+
+Large Devices (Desktops, 769px to 1200px): The layout adapts for larger screens with more space between elements and larger text.
 
 Contributing
+Feel free to fork this project and create pull requests for improvements. Contributions are welcome!
 
-Group Members
+Fork the repository
 
-📌 Project Overview
-This is a personal portfolio website built with HTML, CSS, and JavaScript. The goal? To flex your skills, experience, and projects in a sleek, responsive layout.
+Create a new branch for your changes
 
-🔑 Key Sections:
-Navbar: Branding, navigation links, and a CTA button.
+Make changes and commit them
 
-Hero Section: Bold intro with background image and action buttons.
+Push to your forked repository
 
-About Section: Bio, social links, and a downloadable CV.
+Open a pull request to merge your changes
 
-Services Section: List of services with expandable options.
-
-Skills Section: Skill bars and icons showcasing your talents.
-
-Success Work Section: Gallery of past work with hover effects.
-
-Footer: Contact info, social icons, and client logos.
-
-🛠 Technologies Used
-HTML5 – Website structure
-
-CSS3 – Styling and responsiveness
-
-JavaScript – Smooth scrolling & interactivity
-
-FontAwesome – Icons for social links and service cards
-
-🌟 Features
-✅ Smooth scrolling for seamless navigation
-
-✅ Responsive design for all devices
-
-✅ Hover effects on services, images, and buttons
-
-✅ Click-to-expand services
-
-✅ Social media links
-
-✅ Client logo display section
-
-💡 Solution Approach
-1. Planning the Structure
-Defined clear sections: About, Services, Skills, Projects, and Contact. Interactive elements like hover effects and expandable services were prioritized.
-
-2. Choosing Technologies
-Semantic HTML for SEO and accessibility
-
-CSS for a clean, animated, minimalist look
-
-JavaScript to add interactivity and smooth transitions
-
-FontAwesome for aesthetic, recognizable icons
-
-3. Mobile-First Design
-Responsive layout using media queries. Designed for small screens first, then scaled up to tablets and desktops.
-
-4. Interactive Features
-Expandable Services section
-
-Hover effects across key areas
-
-5. Overcoming Challenges
-Making hover effects mobile-friendly
-
-Balancing minimalism with enough content to show off your skills
-
-🧰 Installation Instructions
-To run the site locally:
-
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/naya-star/Portfolio-Website.git
-Navigate to the project folder:
-
-bash
-Copy
-Edit
-cd Portfolio-Website
-Open index.html in your browser, or launch using Live Server in VS Code.
-
-🎯 Live Demo: Check it out on Netlify
-
-👩🏾‍💻 Usage
-Perfect for freelancers, job seekers, or anyone needing a digital résumé.
-
-✨ How to Customize:
-Update the About Me section with your details
-
-Modify Services to match what you offer
-
-Add your skills in the Skills section
-
-Upload your work to the Success Work gallery
-
-Edit the Footer with your contact info
-
-📱 Responsive Design
-This portfolio adapts beautifully across devices:
-
-Phones (<576px): Mobile navbar, scaled-down hero section
-
-Tablets (577px–768px): Optimized layout with adjusted spacing
-
-Desktops (769px–1200px): Full layout with spacious design
-
-🤝 Contributing
-Wanna improve this site? Let’s gooo!
-
-Fork the repo
-
-Create a branch (git checkout -b feature-name)
-
-Make your changes
-
-Commit and push
-
-Open a pull request 🎉
-
-👥 Group Members
-Naomi Wairimu – Developer & Designer
-
-Sharon Nduku – CSS Designer & Stylist
-
-Mitchelle Matagaro – Structured README & Documentation
+Group Members who contributed to this project
+Naomi Wairimu - Lead Developer and Designer
+Sharon Nduku - CSS designer and general styling
