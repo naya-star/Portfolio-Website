@@ -90,6 +90,7 @@ To run this project locally:
 git clone https://github.com/naya-star/Portfolio-Website.git
 cd Portfolio-Website
 
+
 Open the index.html file in your preferred web browser.
 
 Alternatively, you can serve the project using a local development server like Live Server in Visual Studio Code.
